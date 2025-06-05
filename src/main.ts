@@ -10,7 +10,7 @@ import router from './router'
 import axios from 'axios'
 import { loginStore } from './stores/login'
 
-axios.defaults.baseURL = 'https://opulent-cod-6xgqggxvq9h7wp-8080.app.github.dev/'
+axios.defaults.baseURL = 'http://localhost:8080/'
 
 axios.interceptors.request.use((config) => {
   const store = loginStore()
