@@ -20,9 +20,14 @@ const router = createRouter({
       component: () => import('../views/UsuarioView.vue'),
     },
     {
-      path: '/gerenciar-anotacoes',
-      name: 'gerenciar-anotacoes',
-      component: () => import('../views/GerenciarAnotacoesView.vue'),
+      path: '/anotacoes',
+      name: 'anotacoes',
+      component: () => import('../views/AnotacoesView.vue'),
+    },
+    {
+      path: '/anotacao',
+      name: 'anotacao',
+      component: () => import('../views/AnotacaoView.vue'),
     },
     {
       path: '/login',
